@@ -59,44 +59,15 @@ a:hover{
 
 .bottom-cloud {
     position: absolute;
-    height: 100px;
-    width: 300px;
-    animation: animateCloud 20s linear infinite;
-	transform: scale(0.65);
-    bottom: 275px;
-    z-index: 0;
+    left:300px;
+    bottom:300px;
 }
 
 .top-cloud {
     position: absolute;
-    height: 100px;
-    width: 275px;
-    animation: animateCloud 15s linear infinite;
-	transform: scale(0.65);
-    z-index: 0;
-    bottom: 610px;
+    right:300px;
+    top:50px;
 }
-
-.top-cloud1 {
-    position: absolute;
-    height: 70px;
-    width: 200px;
-    animation: animateCloud 30s linear infinite;
-	transform: scale(0.65);
-    z-index: 0;
-    bottom: 450px;
-}
-
-.top-cloud2 {
-    position: absolute;
-	height: 50px;
-    width: 120px;
-    animation: animateCloud 25s linear infinite;
-	transform: scale(0.65);
-    z-index: 0;
-    bottom: 340px;
-}
-
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
